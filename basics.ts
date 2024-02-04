@@ -37,3 +37,12 @@ let people: Person[];
 // Type Inference
 let course: string | number = 'React - The Complete Guide';
 course = 12341;
+
+// Functions & types
+function add2(a: number, b: number): number | string {
+    return a + b;
+}
+
+function print(value: any) {
+    console.log(value)
+}
