@@ -34,3 +34,7 @@ let people: {
     name: string;
     age: number;
 }[];
+
+// Type Inference
+let course: string | number = 'React - The Complete Guide';
+course = 12341;
