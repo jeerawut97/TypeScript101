@@ -16,10 +16,12 @@ isInstructor = true;
 let hobbies: string[];
 hobbies = ['Sports', 'Cooking'];
 
-let person: {
+type Person = {
     name: string;
     age: number;
 };
+
+let person: Person;
 
 person = {
     name: 'Max',
@@ -30,10 +32,7 @@ person = {
 //     isEmployee: true
 // }
 
-let people: {
-    name: string;
-    age: number;
-}[];
+let people: Person[];
 
 // Type Inference
 let course: string | number = 'React - The Complete Guide';
